@@ -1,6 +1,6 @@
 # hbase-junk-row-cleaner
 
-This utility will help us to delete all junk rows that contains any special characters other than char, numeric, space, underscore, dots &amp; hyphen.
+This utility will help us to delete all junk rows that contains any special characters other than - char, numeric, space, underscore, dots &amp; hyphen.
 
 The options are show and delete.
 
@@ -23,9 +23,9 @@ ROW                                                          COLUMN+CELL
 
 ## How do you run junk cleaner tool?
 
-1. Download "hbase-junk-1.2.jar" from target/hbase-junk-1.2.jar location.
+1. Download "hbase-junk-1.2.jar" from githup.
 2. Place a jar on one of the HBase node.
-3. Run a the commad which you need to pass tablename and commad option.
+3. Run a commad where you need to pass the tablename and cmd option.
 
 ```
  java -cp `hbase classpath` com.hbase.hwx.Util [--zookpeer-server
