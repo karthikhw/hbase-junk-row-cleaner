@@ -35,7 +35,7 @@
 
 
 			<properties>
-				<hadoop.version>2.7.1</hadoop.version>
+				<hadoop.version>2.10.1</hadoop.version>
 				<hbase.version>1.1.2.2.6.5.0-292</hbase.version>
 			</properties>
 		</profile>
